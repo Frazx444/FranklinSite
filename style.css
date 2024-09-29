@@ -238,3 +238,8 @@ form input {
   color: #ffffff;
   font-size: 15px ;
 }
+
+footer {
+  padding: 60px 4%;
+  /* box-shadow: 0 0 40px 10px #6c6cb49f; */
+}
