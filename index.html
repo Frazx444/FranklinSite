@@ -28,8 +28,8 @@
             <nav class="menu-pc">
                 <ul>
                     <li><a href="#">Início</a></li>
-                    <li><a href="#">Especialidades</a></li>
-                    <li><a href="#">Sobre Mim</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre Mim</a></li>
                 </ul>
             </nav>
 
@@ -45,7 +45,7 @@
     </header>
 
     <main>
-        <section class="topo-do-site">
+        <section class="topo-do-site" id="#">
             <div class="interface">
                 <div class="flex">
                     <div class="text-topo-site">
@@ -69,7 +69,7 @@
             </div> <!-- interface -->
         </section> <!--topo-do-site-->
 
-        <section class="especialidades">
+        <section class="especialidades" id="especialidades">
             <div class="interface">
                 <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
                 <div class="flex">
@@ -107,6 +107,47 @@
                 </div> <!-- flex -->
             </div> <!-- interface -->
         </section> <!-- especialidades -->
+
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="assets/imagemSobre.png" alt="imagem do desenvolvedor na seção sobre">
+                    </div> <!-- img sobre -->
+
+                    <div class="text-sobre">
+                        <h2>Hello world!<span> Eu sou o Frank.</span> </h2>
+                        <p>
+                            Sou estudante de Ciência da Computação na Atitus e desenvolvedor front-end com uma forte paixão por design. Desde cedo, sempre tive afinidade com a criação de artes gráficas, utilizando ferramentas como Figma e Illustrator, o que me levou a explorar profundamente o design de interfaces e a prototipagem. Minha experiência em UX/UI complementa meu interesse pelo marketing, onde vejo uma grande sinergia entre estratégia, comunicação e design.
+                        </p>
+                        <p>
+                            Além da minha paixão pelo desenvolvimento e design, a fotografia é um hobby que me permite explorar a criatividade de novas formas. Com minha Canon SL3, gosto de capturar momentos e aplicar esse olhar artístico em meus projetos. Criar é o que me motiva, seja no design digital ou por trás das lentes, sempre buscando inovar e aprender mais.
+                        </p>
+                        <div class="btn-social">
+                            <a href="https://github.com/Frazx444"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/frankmacedo/?trk=people-guest_people_search-card&originalSubdomain=br"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="http://www.behance.net/franklinmcd"><button><i class="bi bi-behance"></i></button></a> 
+                            <a href="assets/cvFranklin.pdf"><button><i class="bi bi-file-earmark-person"></i></button></a>                           
+                        </div> <!-- btn social -->
+                    </div> <!-- text-sobre -->
+                </div> <!-- flex -->
+            </div> <!-- interface -->
+        </section> <!-- sobre -->
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">ENTRE EM <span>CONTATO.</span></h2>
+
+                <form action="#">
+                    <input type="text" name="" id="" placeholder="Seu Nome:" required>
+                    <input type="text" name="" id="" placeholder="Seu Email:" required>
+                    <input type="text" name="" id="" placeholder="Celular:">
+                    <textarea name="" id="" placeholder="Digite a Sua Mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div> <!-- interface-->
+        </section> <!-- formulario -->
+
     </main>
 
 </body>

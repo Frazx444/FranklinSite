@@ -85,7 +85,7 @@ h2.titulo span {
   color:#ebc275;
 }
 
-.btn-contato button:hover {
+ button:hover {
   box-shadow: 0px 0px 8px #5c5ca6;
   transform: scale(1.05);
   transition: .2s;
@@ -135,7 +135,7 @@ section.topo-do-site .flex {
 
 /* ESTILO DAS ESPECIALIDADES */
 section.especialidades {
-  padding: 40px 4;
+  padding: 120px 4;
 
 }
 
@@ -167,4 +167,74 @@ section.especialidades .flex{
   font-size: 28px;
   margin: 15px 0;
 
+}
+
+/* ESTILO DO SOBRE */
+section.sobre {
+  padding: 90px 4%;
+}
+
+section.sobre .flex {
+  align-items: center;
+  gap: 60px;
+}
+.sobre .text-sobre {
+  color: #fff;
+
+}
+
+.sobre .text-sobre h2 {
+  font-size: 36px;
+  line-height: 38px;
+  margin-bottom: 30px;
+}
+
+.sobre .text-sobre h2 span {
+  color: #ebc275;
+  display: block;
+}
+
+.sobre .text-sobre p {
+  margin: 20px 0;
+  text-align: justify ;
+}
+
+.sobre .text-sobre .btn-social button {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  background-color: #39396a;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 0 5px;
+  color: #fff;
+  transition: .2s;
+}
+
+/* ESTILIZAÇÃO DO FORMULÁRIO */
+formulario {
+  padding: 80px 4%;
+
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input {
+  margin-top: 10px;
+  width: 100%;
+  background: #c0bcb03b;
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 15px ;
 }
