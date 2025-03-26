@@ -29,12 +29,13 @@ body {
 
 
 /* estilo do cabeçalho */
-.logo img {
-  max-width: 5%;
-}
 
 header {
   padding: 40px 4%;
+}
+
+header> .interface img {
+  max-width: 90%;
 }
 
 header>.interface {
@@ -61,8 +62,6 @@ header a:hover {
 
 header nav ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
 }
 
 header nav ul li {
@@ -254,6 +253,12 @@ footer {
   /* box-shadow: 0 0 40px 10px #6c6cb49f; */
 }
 
+footer p {
+  color: #fff;
+  text-align: center;
+}
+
+
 @media screen and (max-width: 1140px) {
 
   /* CLASSES GERAIS */
@@ -325,4 +330,5 @@ footer {
   .img-sobre img{
     width: 100%;
   }
+  
 }
