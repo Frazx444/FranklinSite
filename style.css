@@ -74,11 +74,11 @@ header nav ul li {
   padding: 10px 40px;
   font-size: 18px;
   font-weight: 600;
-  background-color: #39396a;
+  background-color: #e2ff3e;
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  color: #ffff;
+  color: #1D1D1B;
 }
 
 h2.titulo {
@@ -93,7 +93,7 @@ h2.titulo span {
 }
 
 button:hover {
-  box-shadow: 0px 0px 8px #5c5ca6;
+  box-shadow: 0px 0px 8px #ac8e56;
   transform: scale(1.05);
   transition: .2s;
 
@@ -189,7 +189,6 @@ section.sobre .flex {
 
 .sobre .text-sobre {
   color: #fff;
-
 }
 
 .sobre .text-sobre h2 {
@@ -213,7 +212,7 @@ section.sobre .flex {
   height: 60px;
   border-radius: 10px;
   border: none;
-  background-color: #39396a;
+  background-color: #aa8b51;
   font-size: 25px;
   cursor: pointer;
   margin: 0 5px;
@@ -269,6 +268,7 @@ footer p {
   h2.titulo {
     font-size: 25px;
     line-height: 30px;
+    padding-top: 40px;
   }  
 
   .topo-do-site .flex {
@@ -308,7 +308,7 @@ footer p {
 
   /* MINHAS ESPECIALIDADES */
   section.especialidades {
-    padding: 120px 8%;
+    padding: 50PX 8%;
   }
 
   /* SOBRE */
@@ -325,6 +325,7 @@ footer p {
 
   .btn-social{
     text-align: center;
+    margin-top: 80px;
   }
 
   .img-sobre img{
