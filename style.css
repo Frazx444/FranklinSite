@@ -285,6 +285,10 @@ footer p {
     display: none;
   }
 
+  header> .interface img {
+    max-width: 70%;
+  }
+
   /* TOPO SITE */
   section.topo-do-site .flex {
     gap: 30px;
